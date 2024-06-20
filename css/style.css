@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.pagina {
+    background-image: url('../images/hcode-treinamentos-1.svg');
+}
+
+div.bloco {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    background-color: blue;
+}
+
+.bloco {
+    background-color: #f00 !important;
+}
