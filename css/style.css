@@ -1,16 +1,29 @@
 @charset "UTF-8";
 
-.pagina {
-    background-image: url('../images/hcode-treinamentos-1.svg');
+body {
+    background-color: #17181c;
+    color: #fff;
+    font-family: sans-serif;
 }
 
-div.bloco {
-    width: 500px;
-    height: 500px;
-    border: 1px solid #000;
-    background-color: blue;
+.pulse {
+    background: none;
+    color: #ff760c;
+    border: 2px solid;
+    margin: 50px;
+    padding: 15px 40px;
+    transition: .25s;
 }
 
-.bloco {
-    background-color: #f00 !important;
+.pulse:hover, .pulse:focus {
+    color: #fff;
+    border-color: #ef8f6e;
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+    animation: pulsar 1s;
+}
+
+@keyframes pulsar {
+    0% {
+        box-shadow: 0 0 0 0 #ef8f6e;
+    }
 }
